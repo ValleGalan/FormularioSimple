@@ -11,8 +11,16 @@ ul{
     flex-direction: row;
     justify-content: space-evenly;
 }
- 
+li{
+    color: blanchedalmond;
+}
+li:hover{
+    background-color:#D82148 ;
+    color: black;
+    padding: 10px;
+}
 .estiloForm{
+    margin-top:2%;
     text-align: center;
     display: flex;
     justify-content: center; 
@@ -36,9 +44,11 @@ button:hover{
 }
 .texto{
     color: aliceblue;   
-    
+    text-transform:uppercase;
 }
 
 footer{
     background-color: #151D3B;
+    display: flex;
+    align-items: flex-end;
 }
