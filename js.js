@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     evento.preventDefault();
     var nombre = document.getElementById('nombre').value;
     if(nombre.length == 0) {
+       //document.write('No has escrito nada en el nombre');
       alert('No has escrito nada en el nombre');
       return;
     }
