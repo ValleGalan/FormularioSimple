@@ -15,11 +15,13 @@ ul{
 }
 li{
     color: blanchedalmond;
+    list-style: none; 
 }
 li:hover{
     background-color:#D82148 ;
     color: black;
     padding: 8px;
+    list-style: none; 
 }
 .estiloForm{
     
@@ -53,6 +55,12 @@ button:hover{
 .iconoImg{
     height: 15px;
     width: 15px;
+    background-color: blanchedalmond;
+}
+.icono{
+    height: 30px;
+    width: 30px;
+    background-color: blanchedalmond; 
 }
 .texto{
     color: aliceblue;   
@@ -61,6 +69,10 @@ button:hover{
 
 footer{
     background-color: #151D3B;
+}
+.final{
+    padding-top: 2%;
     display: flex;
     align-items: flex-end;
+    align-content: space-between;
 }
